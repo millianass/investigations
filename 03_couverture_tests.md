@@ -1,25 +1,5 @@
 # Couverture de tests
 
-
-
-
-## Plan
-
-
-- [Types de tests](#/1)
-- [Doublures](#/2)
-- [Couverture de tests](#/3)
-- [Principes TDD](#/4)
-- [Ecrire des tests maintenables](#/5)
-- [Principes SOLID dans un cadre TDD](#/6)
-- [Code Legacy & Refactoring](#/7)
-- [Aller plus loin](#/8)
-- [Annexes](#/9)
-
-
-
-
-
 ## Principes
 
 - Métrique qui mesure le code testé et celui qui ne l'est pas
@@ -34,8 +14,10 @@
 ## Analyse des résultats
 
 - Un pourcentage de couverture de code ne décrit pas la qualité des tests
-  - Une couverture de code de 100% peut masquer de gros manques dans les tests et la couverture réelle.
-  - Au contraire une couverture de code trop faible indique clairement que le code n'est pas assez testé.
+  - Une couverture de code de 100% peut masquer de gros manques dans les tests    
+  et la couverture réelle.
+  - Au contraire une couverture de code trop faible indique clairement que le code     
+  n'est pas assez testé.
   - La couverture indique uniquement le pourcentage de code exécuté lors des tests.
 
 
@@ -45,7 +27,8 @@
 ## Analyse des résultats
 
 - Avoir une cible définie peut être contre productif
-  - Tester tous les assesseurs va faire gonfler artificiellement la couverture de code sans aucune utilité.
+  - Tester tous les assesseurs va faire gonfler artificiellement la     
+  couverture de code sans aucune utilité.
   - Tester des cas impossibles avant de tester des comportements métiers.
 - La métrique permet d'améliorer la **qualité** des tests
   - Met en évidence les zones de codes pas ou peu testées.
@@ -69,14 +52,16 @@
 
 ## Mutation Testing
 
-- Le *Mutation Testing* consiste à faire un ensemble de modifications du code afin de vérifier que les tests couvrent correctement le code.
+- Le *Mutation Testing* consiste à faire un ensemble de modifications du     
+code afin de vérifier que les tests couvrent correctement le code.
 
 - Les mutations :
   - remplacer un opérateur par un autre
   - supprimer d'une instruction
   - ...
 
-- Si une modification du code ne met pas en echec les tests on peut remettre en question la couverture du code.
+- Si une modification du code ne met pas en echec les tests on peut     
+remettre en question la couverture du code.
 
 
 
@@ -85,7 +70,8 @@
 ## Mutation Testing (Génération des mutants)
 
 - La génération des mutants :
-  - Tente d'appliquer toutes des mutations possibles au code testé afin de générer des mutants.
+  - Tente d'appliquer toutes des mutations possibles au code testé     
+  afin de générer des mutants.
   - Si la mutation compile alors le mutant est généré.
 
 
@@ -97,9 +83,11 @@
   - Les tests sont alors exécutés sur les mutants.
   - Pour chaque mutant :
     - Si les tests sont tous rouges
-      - les tests couvrent les modifications du code de la mutation, le mutant est éliminé.
+      - les tests couvrent les modifications du code de la mutation,     
+      le mutant est éliminé.
     - Si un ou plusieurs tests restent verts
-      - les tests ne traitent pas la mutation, donc ils ne couvrent pas correctement le code.
+      - les tests ne traitent pas la mutation, donc ils ne couvrent     
+      pas correctement le code.
 
 
 
