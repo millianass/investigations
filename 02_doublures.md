@@ -1,26 +1,6 @@
 # Doublures
 
 
-
-
-
-## Plan
-
-
-- [Types de tests](#/1)
-- [Doublures](#/2)
-- [Couverture de tests](#/3)
-- [Principes TDD](#/4)
-- [Ecrire des tests maintenables](#/5)
-- [Principes SOLID dans un cadre TDD](#/6)
-- [Code Legacy & Refactoring](#/7)
-- [Aller plus loin](#/8)
-- [Annexes](#/9)
-
-
---------
-
-
 ## Comment tester unitairement
 
 ![](ressources/images/diag_3-1.png)
@@ -40,7 +20,8 @@
 ## Doublures - Principes
 
 - Permet de simuler l'utilisation de composants / services lié à l'unité en isolation testée.
-  - utilisation de fausses implémentations qui respectent le contrat des vraies interfaces (cf [substitution de Liskov](https://fr.wikipedia.org/wiki/Principe_de_substitution_de_Liskov)).
+  - utilisation de fausses implémentations qui respectent le contrat des vraies interfaces 
+  (cf [substitution de Liskov](https://fr.wikipedia.org/wiki/Principe_de_substitution_de_Liskov)).
 - Indispensables pour simuler :
   - un composant non disponible.
   - une application non accessible pendant la phase de développement.
@@ -65,7 +46,8 @@
 ## Stub
 
 - Le *stub* respecte le contrat du composant (ex : implémente l'interface).
-- Une ou plusieurs méthodes sont prévues pour renvoyer toujours la même valeur fixe quelques soient les paramètres qui lui sont passés.
+- Une ou plusieurs méthodes sont prévues pour renvoyer toujours la même valeur fixe 
+quelques soient les paramètres qui lui sont passés.
 
 
 --------
@@ -99,7 +81,8 @@
 
 - Le *fake object* respecte le contrat du composant (ex : implémente l'interface).
 - Le *fake object* est fait pour mimer de fidèlement le comportement à simuler.
-- Il mime de manière poussée la logique et le comportement métier de l'élément auquel il se substitue sans pour autant avoir d'interaction avec le monde réel.
+- Il mime de manière poussée la logique et le comportement métier de l'élément auquel 
+il se substitue sans pour autant avoir d'interaction avec le monde réel.
 
 
 --------
@@ -108,7 +91,8 @@
 ## Utilisation
 
 - A l'usage ces terminologies ne sont pas cruciales.
-- Il faut juste garder en tête les manières de simuler l'environnement et composer selon le besoin du test en cours
+- Il faut juste garder en tête les manières de simuler l'environnement et composer 
+selon le besoin du test en cours
   - Le *spy* peut être utilisé avec tous les autres modèles.
   - Une doublure peut être en *dummy* sur certaines méthodes et en *fake* sur d'autres.
 - L'important est de *savoir de quoi vous avez besoin*.
