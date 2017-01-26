@@ -10,7 +10,7 @@
   avec le reste du système) : **Test d'intégration**.
   - Tester le fonctionnement d'une application en se mettant à la place de      
   l'utilisateur : **Test fonctionnel**.
-  - Tester les performances d'une application soumisse à de fortes 
+  - Tester les performances d'une application soumisse à de fortes      
   contraintes : **Test de montée en charge**.
 
 
