@@ -1,27 +1,17 @@
 # Types de tests
 
 
-## Plan
-
-- [Types de tests](#/1)
-- [Doublures](#/2)
-- [Couverture de tests](#/3)
-- [Principes TDD](#/4)
-- [Ecrire des tests maintenables](#/5)
-- [Principes SOLID dans un cadre TDD](#/6)
-- [Code Legacy & Refactoring](#/7)
-- [Aller plus loin](#/8)
-- [Annexes](#/9)
-
---------
-
 ## Les types de tests
 
 - Pour chaque aspect il existe un type de test
-  - Tester une unité (méthodes, classes, ...) sans tester le reste du système avec lequel elle interagit : **Test unitaire**.
-  - Tester la collaboration de ces unités (interactions partielles, interactions réelles avec le reste du système) : **Test d'intégration**.
-  - Tester le fonctionnement d'une application en se mettant à la place de l'utilisateur : **Test fonctionnel**.
-  - Tester les performances d'une application soumisse à de fortes contraintes : **Test de montée en charge**.
+  - Tester une unité (méthodes, classes, ...) sans tester le reste du système avec 
+  lequel elle interagit : **Test unitaire**.
+  - Tester la collaboration de ces unités (interactions partielles, interactions réelles 
+  avec le reste du système) : **Test d'intégration**.
+  - Tester le fonctionnement d'une application en se mettant à la place de 
+  l'utilisateur : **Test fonctionnel**.
+  - Tester les performances d'une application soumisse à de fortes 
+  contraintes : **Test de montée en charge**.
 
 
 --------
@@ -62,7 +52,8 @@
   - Chaque test doit pouvoir être joué à tout moment indépendamment des autres.
   - Sans notion d'ordre ou de dépendance.
   - Prédictif, toujours aboutir au même résultat.
-  - Test Fixture (Banc d'Essai) assure qu'à chaque exécution un test démarre dans le même état et donc produit le même résultat.
+  - Test Fixture (Banc d'Essai) assure qu'à chaque exécution un test démarre
+  dans le même état et donc produit le même résultat.
 - L'exécution du test doit être rapide pour avoir un feedback immédiat.
 - Respect du pattern *given-when-then* ou *AAA* (Arrange / Act / Assert).
 - Encourage un faible couplage entre les composants.
@@ -178,7 +169,8 @@
   - Permet de vérifier le bon fonctionnement des composants ensembles.
 - Plus épuré
   - Pas besoin de tester tous les cas aux limites.
-  - En général, un seul test par fonctionnalité pour tester la bonne communication entre les composants.
+  - En général, un seul test par fonctionnalité pour tester la bonne 
+  communication entre les composants.
 
 
 --------
@@ -203,7 +195,8 @@
   - Positionnement manuel des valeurs du banc de test.
   - Permet de tester tous les cas plus facilement.
   - Permet de tester chaque fonctionnalité unitairement et non couplée à d'autres acteurs.
-- Test d'intégration permet de tester plus globalement le bon fonctionnement/câblage de l'ensemble.
+- Test d'intégration permet de tester plus globalement le bon fonctionnement/câblage 
+de l'ensemble.
 - Ces types de tests sont donc complémentaires
   - Il faut donc raisonner en terme de ROI.
 
@@ -240,7 +233,8 @@
 - Plus concret
   - Se met à la place d'un utilisateur pour tester le comportement réel de l'application.
 - Plus rassurant
-  - Vérifie que l'application **finale** se comporte correctement et pas seulement l'ensemble de ses composants.
+  - Vérifie que l'application **finale** se comporte correctement et pas seulement 
+  l'ensemble de ses composants.
 
 
 --------
@@ -249,7 +243,8 @@
 ## Tests fonctionnels - Inconvénients
 
 - Très fragile
-  - A chaque modification du code (même mineure : modification HTML, CSS, etc.), le test risque de tomber en échec.
+  - A chaque modification du code (même mineure : modification HTML, CSS, etc.), 
+  le test risque de tomber en échec.
 - Plus difficile à maintenir
   - Doit être mis à jour très souvent (à chaque modification).
   - Pas forcément très clair (beaucoup de variables à prendre en compte).
@@ -269,7 +264,9 @@
 
 ## Tests de montée en charge - Principes
 
-- Tester le comportement de l'application dans des conditions d'utilisation intensives (plusieurs dizaines, centaines ou milliers d'utilisateurs), évaluation des performances.
+- Tester le comportement de l'application dans des conditions d'utilisation 
+intensives (plusieurs dizaines, centaines ou milliers d'utilisateurs), 
+évaluation des performances.
 - Identifier de possibles problèmes :
   - Les goulets d'étranglement.
   - Les mauvaises configurations / paramétrages.
