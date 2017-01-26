@@ -18,6 +18,7 @@
 - [Annexes](#/9)
 
 
+--------
 
 
 ## Comment tester unitairement
@@ -25,7 +26,7 @@
 ![](ressources/images/diag_3-1.png)
 
 
-
+--------
 
 
 ## Test boite blanche / boite noire
@@ -33,7 +34,7 @@
 ![](ressources/images/diag_3-2.png)
 
 
-
+--------
 
 
 ## Doublures - Principes
@@ -46,7 +47,7 @@
   - un élément complexe ou long à charger (base de données, ...).
 
 
-
+--------
 
 
 ## Dummy
@@ -58,7 +59,7 @@
   - service inutilisé pour une méthode.
 
 
-
+--------
 
 
 ## Stub
@@ -67,7 +68,7 @@
 - Une ou plusieurs méthodes sont prévues pour renvoyer toujours la même valeur fixe quelques soient les paramètres qui lui sont passés.
 
 
-
+--------
 
 
 ## Spy
@@ -79,7 +80,7 @@
   - d'enregistrer les paramètres qui sont passés.
 
 
-
+--------
 
 
 ## Mock
@@ -91,7 +92,7 @@
 - Proche du *stub* avec des traitements conditionnels.
 
 
-
+--------
 
 
 ## Fake Object
@@ -101,7 +102,7 @@
 - Il mime de manière poussée la logique et le comportement métier de l'élément auquel il se substitue sans pour autant avoir d'interaction avec le monde réel.
 
 
-
+--------
 
 
 ## Utilisation
@@ -116,12 +117,15 @@
 http://xunitpatterns.com/Mocks,%20Fakes,%20Stubs%20and%20Dummies.html
 
 
+--------
+
 
 ## Utilisation des interfaces (1/2)
 
 ![](ressources/images/diag_3-3.png)
 
 
+--------
 
 
 ## Utilisation des interfaces (2/2)
@@ -129,7 +133,7 @@ http://xunitpatterns.com/Mocks,%20Fakes,%20Stubs%20and%20Dummies.html
 ![](ressources/images/diag_3-4.png)
 
 
-
+--------
 
 
 ## Caractéristiques d'une doublure
@@ -143,7 +147,7 @@ http://xunitpatterns.com/Mocks,%20Fakes,%20Stubs%20and%20Dummies.html
 - Est uniquement dédié aux tests unitaires ou tests d'intégration de quelques composants.
 
 
-
+--------
 
 
 ## Quand utiliser une doublure ?
@@ -155,5 +159,3 @@ http://xunitpatterns.com/Mocks,%20Fakes,%20Stubs%20and%20Dummies.html
   - Autre application.
   - Système de base de données.
   - ...
-
-
