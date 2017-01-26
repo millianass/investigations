@@ -204,8 +204,8 @@ et la spécification au moment d'écrire le test
 ## 3 - Écrire le code
 
 - Patterns pour faire passer le test
-  - Fake it : retourner directement une constante, qui sera 
-      remplacée par la suite par une variable.
+  - Fake it : retourner directement une constante, qui sera     
+    remplacée par la suite par une variable.
   - Triangulation : à partir de deux exemples, la véritable    
   implémentation doit être écrite.
   - Obvious implementation : si l'implémentation est simple     
@@ -400,9 +400,9 @@ YAGNI nécessite (et permet) du code malléable.
     dans une classe séparée, qui peut être testée unitairement.
 
 Notes :
-Exemple d'une liste qui doit se redimensionner à chaque add et remove
+Exemple d'une liste qui doit se redimensionner à chaque add et remove    
 -> la logique de redimensionnement est typiquement dans une méthode     
-privée et devrait être extraite afin de pouvoir être bien testée
+privée et devrait être extraite afin de pouvoir être bien testée    
 (les TU sur la liste vont se contenter de tester add et remove de     
 manière simple sans se soucier de la taille interne)
 
