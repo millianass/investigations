@@ -277,8 +277,6 @@
 
 ## Conclusion
 
-
-<!-- .element class="alert alert-info"-->
 ROI = (apports liés au test) / (coût de mise en place + coût de l'évolution)
 
 - Les plus gros pièges à éviter
