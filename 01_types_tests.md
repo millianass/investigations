@@ -13,6 +13,7 @@
 - [Aller plus loin](#/8)
 - [Annexes](#/9)
 
+--------
 
 ## Les types de tests
 
@@ -21,6 +22,9 @@
   - Tester la collaboration de ces unités (interactions partielles, interactions réelles avec le reste du système) : **Test d'intégration**.
   - Tester le fonctionnement d'une application en se mettant à la place de l'utilisateur : **Test fonctionnel**.
   - Tester les performances d'une application soumisse à de fortes contraintes : **Test de montée en charge**.
+
+
+--------
 
 
 ## Tests unitaires - Principes
@@ -38,12 +42,18 @@
     - ...
 
 
+--------
+
+
 ## Tests unitaires - Principes
 
 - Typiquement, un composant est une méthode ou une classe.
 - *But* : Contrôler les entrées et vérifier les sorties
   - Contrôle absolu de l'environnement extérieur.
   - Permet de tester les cas aux limites.
+
+
+--------
 
 
 ## Tests unitaires - Principe d'isolation
@@ -58,6 +68,8 @@
 - Encourage un faible couplage entre les composants.
 
 
+--------
+
 
 ## Tests unitaires - Déroulement
 
@@ -71,6 +83,9 @@
 - Conclusion : OK / KO
 
 
+--------
+
+
 ## Tests unitaires - Avantages (1/2)
 
 - Plus sûr
@@ -80,6 +95,9 @@
   - Lors de l'exécution, n'a pas besoin de tout l'environnement réel : notion de banc de test.
 - Plus tôt
   - Permet de tester sans que la totalité de l'environnement ne soit encore disponible.
+
+
+--------
 
 
 ## Tests unitaires - Avantages (2/2)
@@ -93,6 +111,9 @@
   - Ne va pas tomber en échec à chaque modification du code.
 
 
+--------
+
+
 ## Tests unitaires - Inconvénients
 
 - Plus de code à écrire et à maintenir
@@ -102,7 +123,9 @@
   - Éviter les dépendances entre tests.
 
 
-  
+--------
+
+
 ## Tests unitaires - Conclusion
 
 - En général, plus d'avantages que d'inconvénients.
@@ -111,6 +134,9 @@
   - Aéronautique
   - Électronique
   - ...
+
+
+--------
 
 
 ## Tests d'intégration - Principes
@@ -126,6 +152,9 @@
   - Tests d'intégration avec toutes les unités de l'application (en milieu réel).
 
 
+--------
+
+
 ## Tests d'intégration - Principes
 
 - Le fait de tester en conditions réelles a des impacts.
@@ -139,6 +168,9 @@
   - ...
 
 
+--------
+
+
 ## Tests d'intégration - Avantages
 
 - Plus global
@@ -149,6 +181,9 @@
   - En général, un seul test par fonctionnalité pour tester la bonne communication entre les composants.
 
 
+--------
+
+
 ## Tests d'intégration - Inconvénients
 
 - Plus fragile
@@ -157,6 +192,9 @@
 - Plus long
   - L'exécution demande le chargement de plus de composants.
   - Ralentissement dus aux chargements de base, latence réseau, etc.
+
+
+--------
 
 
 ## Tests d'intégration vs Tests unitaires
@@ -170,11 +208,17 @@
   - Il faut donc raisonner en terme de ROI.
 
 
+--------
+
+
 ## Tests d'intégration - Conclusion
 
 - Permet de tester la collaboration des composants ensembles.
 - Couvre une plage allant de l'interaction de plusieurs composants au milieu réel.
 - Peut ne tester que les cas nominaux.
+
+
+--------
 
 
 ## Tests fonctionnels - Principes
@@ -188,12 +232,18 @@
 - Outils de test différents pour chaque type d'interface graphique.
 
 
+--------
+
+
 ## Tests fonctionnels - Avantages
 
 - Plus concret
   - Se met à la place d'un utilisateur pour tester le comportement réel de l'application.
 - Plus rassurant
   - Vérifie que l'application **finale** se comporte correctement et pas seulement l'ensemble de ses composants.
+
+
+--------
 
 
 ## Tests fonctionnels - Inconvénients
@@ -205,10 +255,16 @@
   - Pas forcément très clair (beaucoup de variables à prendre en compte).
 
 
+--------
+
+
 ## Tests fonctionnels - Conclusion
 
 - Permet de tester l'intégralité de l'application, telle qu'elle va être utilisée.
 - Très fragile et difficile à maintenir.
+
+
+--------
 
 
 ## Tests de montée en charge - Principes
@@ -222,6 +278,9 @@
   - Rôle des tests unitaires, d'intégration et fonctionnels.
 
 
+--------
+
+
 ## Tests de montée en charge - Principes
 
 - Ne doivent pas être écrits avant la fin du développement
@@ -233,12 +292,18 @@
 - Autres noms : tests de performance, tests de charge, tests de scalabilité...
 
 
+--------
+
+
 ## Tests de montée en charge - Déroulement
 
 - Pousser l'application dans ses derniers retranchements
   - « Faire tomber l'application ».
 - Localiser et expliquer la cause.
 - L'améliorer en constatant de meilleurs résultats.
+
+
+--------
 
 
 ## Tests de montée en charge - Conclusion
@@ -248,6 +313,9 @@
 - Constitue une discipline à part entière
   - Nécessité de connaître les spécificités de chaque élément.
 - Un cycle sans réelle fin.
+
+
+--------
 
 
 ## Conclusion
@@ -263,12 +331,13 @@
 - « Que suis-je en train de tester ? »
 
 
+--------
 
 
 ## Conclusion
 
 <figure style="text-align: center; width:100%">
-  <img src="ressources/scale-tests.svg">
+  <img src="ressources/scale-tests.png">
 </figure>
 
 <br/>
@@ -284,13 +353,13 @@ ROI = (apports liés au test) / (coût de mise en place + coût de l'évolution)
   - Essayer de tester 2 aspects avec le même type de tests.
 
 
-
+--------
 
 
 ## Cas standard
 
 <figure style="text-align: center; width:50%">
-  <img src="ressources/cas-standard.svg">
+  <img src="ressources/cas-standard.png">
 </figure>
 
 
