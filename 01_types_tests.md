@@ -4,11 +4,11 @@
 ## Les types de tests
 
 - Pour chaque aspect il existe un type de test
-  - Tester une unité (méthodes, classes, ...) sans tester le reste du système avec 
+  - Tester une unité (méthodes, classes, ...) sans tester le reste du système avec     
   lequel elle interagit : **Test unitaire**.
-  - Tester la collaboration de ces unités (interactions partielles, interactions réelles 
+  - Tester la collaboration de ces unités (interactions partielles, interactions réelles     
   avec le reste du système) : **Test d'intégration**.
-  - Tester le fonctionnement d'une application en se mettant à la place de 
+  - Tester le fonctionnement d'une application en se mettant à la place de      
   l'utilisateur : **Test fonctionnel**.
   - Tester les performances d'une application soumisse à de fortes 
   contraintes : **Test de montée en charge**.
@@ -52,7 +52,7 @@
   - Chaque test doit pouvoir être joué à tout moment indépendamment des autres.
   - Sans notion d'ordre ou de dépendance.
   - Prédictif, toujours aboutir au même résultat.
-  - Test Fixture (Banc d'Essai) assure qu'à chaque exécution un test démarre
+  - Test Fixture (Banc d'Essai) assure qu'à chaque exécution un test démarre    
   dans le même état et donc produit le même résultat.
 - L'exécution du test doit être rapide pour avoir un feedback immédiat.
 - Respect du pattern *given-when-then* ou *AAA* (Arrange / Act / Assert).
@@ -243,7 +243,7 @@ de l'ensemble.
 ## Tests fonctionnels - Inconvénients
 
 - Très fragile
-  - A chaque modification du code (même mineure : modification HTML, CSS, etc.), 
+  - A chaque modification du code (même mineure : modification HTML, CSS, etc.),      
   le test risque de tomber en échec.
 - Plus difficile à maintenir
   - Doit être mis à jour très souvent (à chaque modification).
@@ -264,8 +264,8 @@ de l'ensemble.
 
 ## Tests de montée en charge - Principes
 
-- Tester le comportement de l'application dans des conditions d'utilisation 
-intensives (plusieurs dizaines, centaines ou milliers d'utilisateurs), 
+- Tester le comportement de l'application dans des conditions d'utilisation      
+intensives (plusieurs dizaines, centaines ou milliers d'utilisateurs),      
 évaluation des performances.
 - Identifier de possibles problèmes :
   - Les goulets d'étranglement.
