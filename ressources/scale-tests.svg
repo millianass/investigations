@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="810" height="447.00000000000006" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <!-- Created by Fernandez Ludovic -->
+ <defs>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_38">
+   <stop offset="0" stop-opacity="0.99609" stop-color="#5fbf00"/>
+   <stop stop-color="#ffaa56" stop-opacity="0.99609" offset="0.26953"/>
+   <stop offset="0.47656" stop-opacity="0.99609" stop-color="#ffaa56"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#ff5656"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="449" width="812" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_2" height="99" width="700" y="21" x="20" stroke-width="1.5" stroke="#000" fill="none"/>
+  <path id="svg_15" d="m19.7503,21.22179l200.38871,0.01481l-100.867,98.7364l-99.07781,-0.749l-0.4439,-98.00222l0,0l0.00001,0.00001z" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#5fbf00"/>
+  <path id="svg_16" d="m219.508,20.9954l-99.545,98.7266l500.41902,0.00101l-200.35999,-98.73471l-200.51402,0.0071l0,0l-0.00002,0z" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="url(#svg_38)"/>
+  <path id="svg_17" d="m420.53647,20.97349l299.19229,-0.22423l0.4989,98.98852l-100.04498,-0.25352l-199.64621,-98.51076z" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ff5656"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_21" y2="161" x2="20" y1="22" x1="20" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_22" y="80" x="58" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff" font-weight="bold">TU</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_23" y="80" x="309" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff" font-weight="bold">TI</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_24" y="80" x="646" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff" font-weight="bold">TF</text>
+  <line stroke-dasharray="5,5" stroke-linecap="null" stroke-linejoin="null" id="svg_25" y2="159.50172" x2="789.50172" y1="159.50172" x1="22" fill-opacity="null" stroke-opacity="null" stroke-width="3" stroke="#000" fill="none"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_26" y="148" x="24.69759" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Aucune collaboration</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_27" y="146.94737" x="486" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Collaborations réelles</text>
+  <rect id="svg_30" height="100" width="40" y="20" x="750" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#56aaff"/>
+  <rect id="svg_31" height="0.49828" width="0" y="-38.26963" x="807.12401" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_33" y="79.52381" x="755" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff" font-weight="bold">TP</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_34" y2="162" x2="790" y1="19.50172" x1="790" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+  <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" x1="30" y1="170" x2="60" y2="200" id="svg_1" stroke-linejoin="null" stroke-linecap="null"/>
+  <text fill="#666666" stroke="#000" stroke-width="0" stroke-opacity="null" x="13" y="259" id="svg_4" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve" transform="rotate(90, 59.7061, 250.579)">Méthode</text>
+  <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" x1="180" y1="169.52632" x2="210" y2="200" id="svg_7" stroke-linejoin="null" stroke-linecap="null"/>
+  <text fill="#666666" stroke="#000" stroke-width="0" stroke-opacity="null" x="173" y="249" id="svg_8" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve" transform="rotate(90, 209.684, 240.579)">Classe</text>
+  <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" x1="330" y1="169.52632" x2="360" y2="200" id="svg_9" stroke-linejoin="null" stroke-linecap="null"/>
+  <text fill="#666666" stroke="#000" stroke-width="0" stroke-opacity="null" x="300" y="273" id="svg_11" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve" transform="rotate(90, 360.228, 264.579)">Framework</text>
+  <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" x1="510" y1="169.52632" x2="540" y2="200" id="svg_12" stroke-linejoin="null" stroke-linecap="null"/>
+  <text fill="#666666" stroke="#000" stroke-width="0" stroke-opacity="null" x="506" y="248" id="svg_13" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve" transform="rotate(90, 540.009, 239.579)">SGBD</text>
+  <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" x1="710" y1="170" x2="740" y2="200" id="svg_14" stroke-linejoin="null" stroke-linecap="null"/>
+  <text fill="#666666" stroke="#000" stroke-width="0" stroke-opacity="null" x="686" y="267" id="svg_18" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve" transform="rotate(90, 739.81, 258.718)">Utilisateur</text>
+  <line stroke-dasharray="2,2" stroke-linecap="null" stroke-linejoin="null" id="svg_28" y2="339.50172" x2="475" y1="340" x1="80" fill-opacity="null" stroke-opacity="null" stroke-width="3" stroke="#000" fill="none"/>
+  <text fill="#4c4c4c" stroke="#000" stroke-width="0" stroke-dasharray="2,2" stroke-opacity="null" x="236" y="360" id="svg_29" font-size="20" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Doublures</text>
+  <g id="svg_49">
+   <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_40" y="429.79293" x="197" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffaa56" font-weight="bold">TI</text>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" x="222" y="429.79293" id="svg_46" font-size="16" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">: Test d'Intégration</text>
+  </g>
+  <g id="svg_50">
+   <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_39" y="429.79293" x="37" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#5fbf00" font-weight="bold">TU</text>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" x="62" y="429.79293" id="svg_45" font-size="16" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">: Test Unitaire</text>
+  </g>
+  <g id="svg_51">
+   <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_41" y="429.79293" x="397" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ff5656" font-weight="bold">TF</text>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" x="422" y="429.79293" id="svg_47" font-size="16" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">: Test Fonctionnel</text>
+  </g>
+  <g id="svg_52">
+   <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_42" y="429.79293" x="596.40828" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#56aaff" font-weight="bold">TP</text>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" x="621.40828" y="429.79292" id="svg_48" font-size="16" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">: Test de Performance</text>
+  </g>
+  <line fill="none" stroke="#999999" stroke-width="1.5" x1="32.75144" y1="410" x2="786" y2="410" id="svg_53" stroke-linejoin="null" stroke-linecap="null"/>
+  <path id="svg_3" d="m286.33508,140.39577l11.61542,-4.63425l0,2.42114l138.89832,0l0,-2.42114l10.5343,4.31569l-10.5343,5.36838l0,-2.42102l-138.89832,0l0,2.42102l-11.61542,-5.04982z" stroke-width="1.5" fill="#999999"/>
+ </g>
+</svg>

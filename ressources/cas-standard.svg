@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="550" height="650" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <linearGradient id="cas_svg_14">
+   <stop offset="0" stop-opacity="0.99609" stop-color="#aaff56"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#00bf00"/>
+  </linearGradient>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="cas_svg_29">
+   <stop offset="0" stop-opacity="0.99609" stop-color="#ffaaaa"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#bf0000"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="552" height="652" id="canvas_background" fill="none"/>
+  <g id="canvasGrid" display="none">
+   <rect id="cas_svg_3" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="cas_svg_30">
+   <g id="cas_svg_6">
+    <rect fill="#bfbf00" stroke-width="1.5" x="352.28334" y="183" width="176" height="44" id="cas_svg_1"/>
+    <text font-weight="bold" fill="#ffffff" stroke="#000" stroke-width="0" stroke-opacity="null" x="367.58334" y="212.99998" id="cas_svg_2" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Présentation</text>
+   </g>
+   <g id="cas_svg_11">
+    <rect fill="#bfbf00" stroke-width="1.5" x="352.28334" y="303" width="176" height="44" id="cas_svg_4"/>
+    <text font-weight="bold" fill="#ffffff" stroke="#000" stroke-width="0" stroke-opacity="null" x="397.58334" y="332.99998" id="cas_svg_7" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Service</text>
+   </g>
+   <g id="cas_svg_12">
+    <rect fill="#bfbf00" stroke-width="1.5" x="352.28334" y="423" width="176" height="44" id="cas_svg_5"/>
+    <text font-weight="bold" fill="#ffffff" stroke="#000" stroke-width="0" stroke-opacity="null" x="414.28334" y="453.00001" id="cas_svg_8" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">DAO</text>
+   </g>
+   <path transform="rotate(90, 440.283, 265.039)" id="cas_svg_10" d="m412.28131,265.04001l16.23505,-9l0,4.50098l23.52997,0l0,-4.50098l16.23499,9l-16.23499,9l0,-4.5l-23.52997,0l0,4.5l-16.23505,-9z" stroke-width="1.5" fill="#ffaa56"/>
+   <g id="cas_svg_16">
+    <path fill="#bfbf00" stroke="#ffffff" stroke-width="1.5" d="m527.28137,556.25342c0,7.45679 -38.94849,13.50146 -86.9978,13.50146m86.9978,-13.50146l0,0c0,7.45679 -38.94849,13.50146 -86.9978,13.50146c-48.04834,0 -87.00006,-6.04468 -87.00006,-13.50146m0,0l0,0c0,-7.45715 38.95172,-13.50177 87.00006,-13.50177c48.04932,0 86.9978,6.04462 86.9978,13.50177l0,54.00354c0,7.45483 -38.94849,13.49921 -86.9978,13.49921c-48.04834,0 -87.00006,-6.04437 -87.00006,-13.49921l0,-54.00354z" id="cas_svg_9"/>
+    <text font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="24" id="cas_svg_15" y="605.45" x="422.94999" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">BD</text>
+   </g>
+   <path transform="rotate(90, 440.283, 384.75)" id="cas_svg_26" d="m412.28168,384.75125l16.23511,-9.00003l0,4.50027l23.52966,0l0,-4.50027l16.23523,9.00003l-16.23523,9.00009l0,-4.5l-23.52966,0l0,4.5l-16.23511,-9.00009z" stroke-width="1.5" fill="#ffaa56"/>
+   <path transform="rotate(90, 440.283, 504.75)" id="cas_svg_27" d="m412.28168,504.75122l16.23511,-9l0,4.50024l23.52966,0l0,-4.50024l16.23523,9l-16.23523,9.00012l0,-4.5l-23.52966,0l0,4.5l-16.23511,-9.00012z" stroke-width="1.5" fill="#ffaa56"/>
+  </g>
+  <g id="cas_svg_37">
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="22" y="213" id="cas_svg_21" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Tests fonctionnels</text>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="22" y="314.45" id="cas_svg_22" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Tests unitaires</text>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="22" y="353.45" id="cas_svg_23" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Tests d'intégration</text>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="22" y="452.99998" id="cas_svg_24" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Tests d'intégration</text>
+   <path id="cas_svg_13" d="m257.65417,192.99873l26.99771,0l8.99863,12.00128l-8.99863,12.00127l-26.99771,0l8.99948,-12.00127l-8.99948,-12.00128z" stroke-width="1.5" fill="url(#cas_svg_14)"/>
+   <path id="cas_svg_17" d="m257.65417,312.99872l26.99771,0l8.99863,12.00128l-8.99863,12.00128l-26.99771,0l8.99948,-12.00128l-8.99948,-12.00128z" stroke-width="1.5" fill="url(#cas_svg_14)"/>
+   <path id="cas_svg_18" d="m257.65417,432.99872l26.99771,0l8.99863,12.00128l-8.99863,12.00128l-26.99771,0l8.99948,-12.00128l-8.99948,-12.00128z" stroke-width="1.5" fill="url(#cas_svg_14)"/>
+  </g>
+  <g id="cas_svg_38">
+   <g id="cas_svg_25">
+    <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="352.44165" y="37.45" id="cas_svg_19" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Tests de montée</text>
+    <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="386.95835" y="71.45" id="cas_svg_20" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">en charge</text>
+   </g>
+   <path transform="rotate(90, 440.283, 120)" id="cas_svg_28" d="m422.28491,107.99873l26.99774,0l8.9986,12.00128l-8.9986,12.00127l-26.99774,0l8.99951,-12.00127l-8.99951,-12.00128z" stroke-width="1.5" fill="url(#cas_svg_29)"/>
+  </g>
+ </g>
+</svg>
