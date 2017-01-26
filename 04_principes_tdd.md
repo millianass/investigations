@@ -102,7 +102,8 @@ commencer l'implémentation.
   - Ces tests prenant beaucoup de temps, création de tests automatisés.
   - Les automatisés sont fragiles et lents.
   - Maintenance longue et difficile.
-  - Par manque de temps, les tests unitaires ne sont fait que pour quelques cas.
+  - Par manque de temps, les tests unitaires ne sont fait que     
+  pour quelques cas.
 
 
 --------
@@ -214,7 +215,7 @@ et la spécification au moment d'écrire le test
   unitairement, ensuite l'implémenter avec la collection.
 
 Notes :
-Fake it et Triangulation permettent de maintenir le cycle du TDD    
+Fake it et Triangulation permettent de maintenir le cycle du TDD        
 et sont moins exigeantes intellectuellement.
 
 
@@ -376,7 +377,8 @@ YAGNI nécessite (et permet) du code malléable.
 
 - Template method
   - Standardise une séquence avec des implémentations par défaut
-  - Les comportements spécifiques sont implémentés dans les sous-classes
+  - Les comportements spécifiques sont implémentés dans les    
+  sous-classes
 - Composite
   - Traite de manière identique un groupe et un élément
 
