@@ -8,7 +8,7 @@
 - Besoin d'outils d'analyse.
 
 
-
+--------
 
 
 ## Analyse des résultats
@@ -21,7 +21,7 @@
   - La couverture indique uniquement le pourcentage de code exécuté lors des tests.
 
 
-
+--------
 
 
 ## Analyse des résultats
@@ -35,7 +35,7 @@
   - Met en évidence les tests qui ne testent rien (_Tests Liar_)
 
 
-
+--------
 
 
 ## Conclusion
@@ -48,6 +48,7 @@
   - La qualité des tests est plus importante que leur nombre.
 
 
+--------
 
 
 ## Mutation Testing
@@ -64,7 +65,7 @@ code afin de vérifier que les tests couvrent correctement le code.
 remettre en question la couverture du code.
 
 
-
+--------
 
 
 ## Mutation Testing (Génération des mutants)
@@ -75,6 +76,7 @@ remettre en question la couverture du code.
   - Si la mutation compile alors le mutant est généré.
 
 
+--------
 
 
 ## Mutation Testing (Elimination des mutants)
@@ -90,7 +92,7 @@ remettre en question la couverture du code.
       pas correctement le code.
 
 
-
+--------
 
 
 ## Mutation Testing - Conclusion
@@ -100,5 +102,3 @@ remettre en question la couverture du code.
 - Potentiellement très lent.
 - Impossible à faire manuellement, nécessite un outil dédié.
 - S'applique uniquement sur les tests unitaires.
-
-
