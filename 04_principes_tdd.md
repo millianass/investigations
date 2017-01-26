@@ -1,25 +1,5 @@
 # Principes de TDD
 
-<!-- .slide: class="page-title" -->
-
-
-
-## Plan
-
-<!-- .slide: class="toc" -->
-
-- [Types de tests](#/1)
-- [Doublures](#/2)
-- [Couverture de tests](#/3)
-- [Principes TDD](#/4)
-- [Ecrire des tests maintenables](#/5)
-- [Principes SOLID dans un cadre TDD](#/6)
-- [Code Legacy & Refactoring](#/7)
-- [Aller plus loin](#/8)
-- [Annexes](#/9)
-
-
-
 
 
 ## TDD: Test Driven Development (1/2)
@@ -33,7 +13,7 @@
 - Idée générale : **écrire un test puis écrire seulement le code nécessaire pour le faire passer**.
 
 
-
+--------
 
 
 ## TDD: Test Driven Development (2/2)
@@ -46,7 +26,7 @@
   - [développements] Sur des nouveaux développements ou sur des corrections.
 
 
-
+--------
 
 
 ## Une pratique "Extreme Programming"
@@ -92,9 +72,8 @@
   </tbody>
 </table>
 
-Notes :
-http://fr.wikipedia.org/wiki/Extreme_programming
 
+--------
 
 
 ## Pourquoi TDD ? (1/4)
@@ -110,7 +89,7 @@ http://fr.wikipedia.org/wiki/Extreme_programming
 - L'écriture du test en amont oblige à réfléchir au besoin avant de commencer l'implémentation.
 
 
-
+--------
 
 
 ## Pourquoi TDD ? (2/4)
@@ -123,7 +102,7 @@ http://fr.wikipedia.org/wiki/Extreme_programming
   - Par manque de temps, les tests unitaires ne sont fait que pour quelques cas.
 
 
-
+--------
 
 
 ## Pourquoi TDD ? (3/4)
@@ -133,7 +112,7 @@ C'est l'anti-pattern du cornet de glace ! (défini par [Alister Scott et Nathan 
 <img src="ressources/images/Test_-_01_-_ICC-5o5.png" width="43%" />
 
 
-
+--------
 
 
 ## Pourquoi TDD ? (4/4)
@@ -143,7 +122,7 @@ Le pattern idéal (défini par [Mike Cohn](http://martinfowler.com/bliki/TestPyr
 <img src="ressources/images/Test_-_01_-_Pyramid_TDD-5o5.png" width="65%" />
 
 
-
+--------
 
 
 ## Exigences des outils
@@ -158,7 +137,7 @@ Le pattern idéal (défini par [Mike Cohn](http://martinfowler.com/bliki/TestPyr
   - Exemple dans le monde Java : JUnit, TestNG.
 
 
-
+--------
 
 
 ## Le cycle TDD : présentation
@@ -168,6 +147,7 @@ Le pattern idéal (défini par [Mike Cohn](http://martinfowler.com/bliki/TestPyr
 <img src="ressources/images/Test_-_01_-_Cycle_TDD-7o8.png" width="62%" />
 
 
+--------
 
 
 ## 1 - Ajouter un test
@@ -180,7 +160,7 @@ Le pattern idéal (défini par [Mike Cohn](http://martinfowler.com/bliki/TestPyr
   - Force à se poser de bonnes questions.
 
 
-
+--------
 
 
 ## 2 - Lancer les tests avec échec
@@ -196,7 +176,7 @@ Le pattern idéal (défini par [Mike Cohn](http://martinfowler.com/bliki/TestPyr
   - Ne doit pas avoir d'effet de bord sur les autres tests.
 
 
-
+--------
 
 
 ## 3 - Écrire le code
@@ -209,7 +189,7 @@ Le pattern idéal (défini par [Mike Cohn](http://martinfowler.com/bliki/TestPyr
   - Ne pas faire d'autres développements, ils seraient non testés.
 
 
-
+--------
 
 
 ## 3 - Écrire le code
@@ -224,6 +204,8 @@ Notes :
 Fake it et Triangulation permettent de maintenir le cycle du TDD et sont moins exigeantes intellectuellement.
 
 
+--------
+
 
 ## 4 – Lancer les tests avec succès
 
@@ -236,7 +218,7 @@ Fake it et Triangulation permettent de maintenir le cycle du TDD et sont moins e
 - Indique que le code exécute bien ce pour quoi il a été développé.
 
 
-
+--------
 
 
 ## 5 - Refactoriser et relancer
@@ -248,7 +230,7 @@ Fake it et Triangulation permettent de maintenir le cycle du TDD et sont moins e
   - Certitude de ne pas avoir « cassé » une fonctionnalité lors du refactoring.
 
 
-
+--------
 
 
 ## Les 3 règles du TDD de l'Oncle Bob
@@ -262,7 +244,7 @@ Uncle Bob (Robert Martin) a définit 3 régles :
 Plus d'informations : http://www.butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd
 
 
-
+--------
 
 
 ## Le Cycle TDD : conclusion
@@ -276,7 +258,7 @@ Plus d'informations : http://www.butunclebob.com/ArticleS.UncleBob.TheThreeRules
   - Si les itérations sont trop longues (ex: 1 j d'écriture de test), nécessité de découper la fonctionnalité en sous-fonctionnalités.
 
 
-
+--------
 
 
 ## Design émergent - Principes
@@ -287,7 +269,7 @@ Plus d'informations : http://www.butunclebob.com/ArticleS.UncleBob.TheThreeRules
   - Suffisante pour faire passer les tests.
 
 
-
+--------
 
 
 ## Design émergent - Pratique
@@ -300,7 +282,7 @@ Plus d'informations : http://www.butunclebob.com/ArticleS.UncleBob.TheThreeRules
 - Ne pas hésiter à effectuer du refactor quand c'est nécessaire pour continuer à faire évoluer l'architecture.
 
 
-
+--------
 
 
 ## Design émergent - Principe YAGNI (1/2)
@@ -321,7 +303,7 @@ YAGNI (*Y*ou *A*in't *G*onna *N*eed *I*t) : "vous n'en aurez pas besoin"
 Il faut se concentrer sur ce qui est prévu.
 
 
-
+--------
 
 
 ## Design émergent - Principe YAGNI (2/2)
@@ -338,7 +320,7 @@ Il faut se concentrer sur ce qui est prévu.
 YAGNI n'est pas une justification pour négliger la qualité de votre code. YAGNI nécessite (et permet) du code malléable.
 
 
-
+--------
 
 
 ## Design émergent - Design Patterns
@@ -354,7 +336,7 @@ YAGNI n'est pas une justification pour négliger la qualité de votre code. YAGN
   - Encapsule la création d'objet.
 
 
-
+--------
 
 
 ## Design émergent - Design Patterns
@@ -366,7 +348,7 @@ YAGNI n'est pas une justification pour négliger la qualité de votre code. YAGN
   - Traite de manière identique un groupe et un élément
 
 
-
+--------
 
 
 ## Tester les méthodes privées ?
@@ -385,6 +367,8 @@ Exemple d'une liste qui doit se redimensionner à chaque add et remove
 (les TU sur la liste vont se contenter de tester add et remove de manière simple sans se soucier de la taille interne)
 
 
+--------
+
 
 ## TDD : Avantages (1/2)
 
@@ -397,7 +381,7 @@ Exemple d'une liste qui doit se redimensionner à chaque add et remove
     - Meilleure qualité globale de l'application.
 
 
-
+--------
 
 
 ## TDD : Avantages (2/2)
@@ -410,7 +394,7 @@ Exemple d'une liste qui doit se redimensionner à chaque add et remove
   - Code déjà testé « fonctionnalité par fonctionnalité » donc presque en mode « pas à pas » : moins de mauvaises surprises.
 
 
-
+--------
 
 
 ## TDD : Inconvénients (1/2)
@@ -419,6 +403,7 @@ Exemple d'une liste qui doit se redimensionner à chaque add et remove
   - Obligation de revues de code et de discussions pour vérifier que le design du code reste cohérent sur l'application (pas seulement que le code implémente bien les fonctionnalités).
 
 
+--------
 
 
 ## TDD : Inconvénients (2/2)
@@ -431,7 +416,7 @@ Exemple d'une liste qui doit se redimensionner à chaque add et remove
 - Difficulté pour tester les IHM.
 
 
-
+--------
 
 
 ## Conclusion
@@ -439,6 +424,3 @@ Exemple d'une liste qui doit se redimensionner à chaque add et remove
 - Tester : un sujet important et unanimement partagé.
 - TDD : méthode simple mais reste « théorique »
   - Nécessité de mettre en pratique.
-
-
->
