@@ -1,26 +1,5 @@
 # Ecrire des tests maintenables
 
-<!-- .slide: class="page-title" -->
-
-
-
-## Plan
-
-<!-- .slide: class="toc" -->
-
-- [Types de tests](#/1)
-- [Doublures](#/2)
-- [Couverture de tests](#/3)
-- [Principes TDD](#/4)
-- [Ecrire des tests maintenables](#/5)
-- [Principes SOLID dans un cadre TDD](#/6)
-- [Code Legacy & Refactoring](#/7)
-- [Aller plus loin](#/8)
-- [Annexes](#/9)
-
-Notes :
-
-
 
 ## Objectifs
 
@@ -33,8 +12,8 @@ Notes :
   - Ne sont plus pertinents.
   - Ne sont plus lancés.
 
-Notes :
 
+-----
 
 
 ## Given / When / Then
@@ -46,8 +25,8 @@ Notes :
 - Peut être explicite (avec des sections bien distinctement identifiées) ou implicite
   - Quoi qu'il en soit, doit être visible.
 
-Notes :
 
+-----
 
 
 ## Configuration
@@ -65,6 +44,8 @@ Si on créer un objet dans le setup qui servira de jeu de données dans tous les
 Il faut le limiter aux objets très bien définis (utilisateur authentifié, etc.)
 
 
+-----
+
 
 ## Tests fixtures - Problématique
 
@@ -76,8 +57,8 @@ Il faut le limiter aux objets très bien définis (utilisateur authentifié, etc
   - Le code qui exécute le test est noyé dans le code de préparation.
   - L'objectif du test est moins clair.
 
-Notes :
 
+-----
 
 
 ## Tests fixtures - Méthodes
@@ -87,8 +68,8 @@ Notes :
 - Éventuellement passer un ou deux paramètres pour rendre l'objet paramétrable
   - Si trop de paramètres, la méthode a peu d'intérêt (autant utiliser un constructeur ou un builder).
 
-Notes :
 
+-----
 
 
 ## Tests fixtures - Méthodes (exemple)
@@ -113,8 +94,8 @@ private Product aProduct(double price) {
 }
 ```
 
-Notes :
 
+-----
 
 
 ## Tests fixtures - Builder
@@ -137,8 +118,8 @@ public void should_increment_basket_price() {
 }
 ```
 
-Notes :
 
+-----
 
 
 ## Tests fixtures - Builder (exemple)
@@ -167,8 +148,8 @@ public class ProductBuilder {
 }
 ```
 
-Notes :
 
+-----
 
 
 ## Tester l'aléatoire
@@ -180,8 +161,8 @@ Notes :
   - Possibilité de mocker les dépendances et de "fixer" l'aléatoire.
   - Les tests deviennent prédictibles.
 
-Notes :
 
+-----
 
 
 ## Cacher les détails d'implémentation
@@ -195,8 +176,8 @@ Notes :
   - Perte de motivation.
   - Tests ignorés.
 
-Notes :
 
+-----
 
 
 ## Echouer pour une seule raison
@@ -208,8 +189,8 @@ Notes :
   - Augmente la clarté.
   - Accélère le debug.
 
-Notes :
 
+-----
 
 
 ## Nommage des classes
@@ -230,6 +211,8 @@ Sandro utilise "Should" à la fin de ses classes pour être plus clair (pas beso
 http://codurance.com/2014/12/13/naming-test-classes-and-methods/
 
 
+-----
+
 
 ## Nommage des méthodes
 
@@ -247,6 +230,8 @@ Notes :
 Utilisation de camel case, underscores, mix des deux : peu importe
 
 
+-----
+
 
 ## Structure
 
@@ -258,8 +243,8 @@ Utilisation de camel case, underscores, mix des deux : peu importe
   - Trouver un moyen pour les nommer correctement.
   - Exemple : `ProductServiceImpl_BasketTest`.
 
-Notes :
 
+-----
 
 
 ## Conclusion
@@ -271,9 +256,3 @@ Notes :
 - Les tests doivent donc être écrits avec autant de soin que le code de production
   - Design, revue, patterns, maintenabilité.
   - En Java : http://www.petrikainulainen.net/writing-clean-tests/
-
-Notes :
-
-
-
-<!-- .slide: class="page-questions" -->
