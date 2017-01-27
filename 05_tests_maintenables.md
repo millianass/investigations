@@ -8,7 +8,8 @@
   - Il doit être simple, compréhensible et **maintenable**.
 - Des tests non maintenables
   - Ne sont pas maintenus.
-  - Tombent en erreur de plus en plus souvent (changement du code, des fonctionnalités).
+  - Tombent en erreur de plus en plus souvent     
+  (changement du code, des fonctionnalités).
   - Ne sont plus pertinents.
   - Ne sont plus lancés.
 
@@ -22,7 +23,8 @@
   - **Given** : Préparation des mocks, des jeux de tests.
   - **When** : Exécution de la méthode à tester.
   - **Then** : Assertions pour vérifier le résultat.
-- Peut être explicite (avec des sections bien distinctement identifiées) ou implicite
+- Peut être explicite (avec des sections bien     
+distinctement identifiées) ou implicite
   - Quoi qu'il en soit, doit être visible.
 
 
@@ -32,16 +34,21 @@
 ## Configuration
 
 - La configuration des tests doit être la plus simple possible
-  - Si la configuration est trop complexe, cela signifie que la classe à tester est trop grosse et doit être refactorisée.
+  - Si la configuration est trop complexe, cela signifie que     
+  la classe à tester est trop grosse et doit être refactorisée.
   - Utiliser des fixtures.
-  - Mocker seulement ce qui est nécessaire (bonne utilisation des différents types de doublures).
+  - Mocker seulement ce qui est nécessaire (bonne utilisation     
+  des différents types de doublures).
 - Eviter de partager les jeux de données
   - Couplage fort entre les tests.
 - Utiliser des frameworks uniquement si cela simplifie le code.
 
 Notes :
-Si on créer un objet dans le setup qui servira de jeu de données dans tous les tests, une modification de cet objet pour un test va impacter tous les autres.
-Il faut le limiter aux objets très bien définis (utilisateur authentifié, etc.)
+Si on créer un objet dans le setup qui servira de jeu de données     
+dans tous les tests, une modification de cet objet pour un test     
+va impacter tous les autres.
+Il faut le limiter aux objets très bien définis     
+(utilisateur authentifié, etc.)
 
 
 -----
@@ -51,10 +58,13 @@ Il faut le limiter aux objets très bien définis (utilisateur authentifié, etc
 
 - Créer un jeu de test peut être verbeux et répétitif
   - Objets créés dans chaque test.
-  - La valeur des propriétés d'un objet est parfois peu importante (elle doit juste exister).
-  - L'ajout d'une propriété dans un objet oblige à réécrire tous les tests.
+  - La valeur des propriétés d'un objet est parfois peu     
+  importante (elle doit juste exister).
+  - L'ajout d'une propriété dans un objet oblige à réécrire    
+  tous les tests.
 - La création des jeux de test rend le test moins compréhensible
-  - Le code qui exécute le test est noyé dans le code de préparation.
+  - Le code qui exécute le test est noyé dans le code de    
+  préparation.
   - L'objectif du test est moins clair.
 
 
@@ -63,10 +73,14 @@ Il faut le limiter aux objets très bien définis (utilisateur authentifié, etc
 
 ## Tests fixtures - Méthodes
 
-- Méthode qui va instancier un objet avec des valeurs par défaut.
-- Très utile quand on a besoin d'un objet et que son contenu importe peu.
-- Éventuellement passer un ou deux paramètres pour rendre l'objet paramétrable
-  - Si trop de paramètres, la méthode a peu d'intérêt (autant utiliser un constructeur ou un builder).
+- Méthode qui va instancier un objet avec des valeurs    
+par défaut.
+- Très utile quand on a besoin d'un objet et que son contenu    
+importe peu.
+- Éventuellement passer un ou deux paramètres pour rendre    
+l'objet paramétrable
+  - Si trop de paramètres, la méthode a peu d'intérêt    
+  (autant utiliser un constructeur ou un builder).
 
 
 -----
@@ -101,8 +115,10 @@ private Product aProduct(double price) {
 ## Tests fixtures - Builder
 
 - Pattern *Builder* pour instancier un objet.
-- Très utile quand on souhaite un haut niveau de personnalisation
-  - Présence de valeurs par défaut si on ne souhaite pas personnaliser un champ.
+- Très utile quand on souhaite un haut niveau de     
+personnalisation
+  - Présence de valeurs par défaut si on ne     
+  souhaite pas personnaliser un champ.
 
 <br>
 ```java
@@ -154,11 +170,13 @@ public class ProductBuilder {
 
 ## Tester l'aléatoire
 
-- Une méthode qui manipule des dates et des nombres aléatoires est difficile à tester
+- Une méthode qui manipule des dates et des nombres    
+aléatoires est difficile à tester
   - Le résultat n'est pas prévisible.
   - Impossible d'avoir des tests constants (__Flaky test__).
 - Solution : externaliser l'aléatoire
-  - Possibilité de mocker les dépendances et de "fixer" l'aléatoire.
+  - Possibilité de mocker les dépendances et de "fixer"    
+  l'aléatoire.
   - Les tests deviennent prédictibles.
 
 
@@ -170,8 +188,10 @@ public class ProductBuilder {
 - Le test doit tester des comportements, pas des implémentations.
 - Il ne doit pas savoir comment la méthode est implémentée
   - Ne pas tester les méthodes privées.
-  - Ne pas vérifier *tous* les appels aux dépendances (seulement ceux qui font partie de la fonctionnalité).
-- Risque de casser tous les tests à chaque modification de l'implémentation
+  - Ne pas vérifier *tous* les appels aux dépendances     
+  (seulement ceux qui font partie de la fonctionnalité).
+- Risque de casser tous les tests à chaque modification     
+de l'implémentation
   - Beaucoup de temps passé à maintenir les tests.
   - Perte de motivation.
   - Tests ignorés.
@@ -206,8 +226,10 @@ public class ProductBuilder {
   - [`FooImplIT` son test d'intégration associé.]
 
 Notes :
-Sandro utilise "Should" à la fin de ses classes pour être plus clair (pas besoin de le mettre en début de méthodes)
--> Force à configurer Surefire pour exécuter les tests sur des classes qui se terminent par Should
+Sandro utilise "Should" à la fin de ses classes pour être     
+plus clair (pas besoin de le mettre en début de méthodes)
+-> Force à configurer Surefire pour exécuter les tests sur    
+des classes qui se terminent par Should
 http://codurance.com/2014/12/13/naming-test-classes-and-methods/
 
 
@@ -224,7 +246,8 @@ http://codurance.com/2014/12/13/naming-test-classes-and-methods/
     - Question de cohérence et de clarté.
     - Pas de "meilleur" choix.
   - Exemple : `should_increment_basket` au lieu de `testBasket`.
-- Selon l'outil, on peut même ajouter une description textuelle au test.
+- Selon l'outil, on peut même ajouter une description    
+textuelle au test.
 
 Notes :
 Utilisation de camel case, underscores, mix des deux : peu importe
@@ -235,10 +258,12 @@ Utilisation de camel case, underscores, mix des deux : peu importe
 
 ## Structure
 
-- Si une classe a beaucoup de méthodes, la classe de test peut être très grosse
+- Si une classe a beaucoup de méthodes, la classe de     
+test peut être très grosse
   - Signe que la classe fait trop de chose.
   - Peut être signe qu'il faut refactoriser.
-- Ne pas hésiter à découper la classe de test en plusieurs classes
+- Ne pas hésiter à découper la classe de test en     
+plusieurs classes
   - Séparation par fonctionnalité.
   - Trouver un moyen pour les nommer correctement.
   - Exemple : `ProductServiceImpl_BasketTest`.
@@ -253,6 +278,7 @@ Utilisation de camel case, underscores, mix des deux : peu importe
   - Il sert de documentation.
   - Il sert d'exemple.
   - Il est très souvent modifié.
-- Les tests doivent donc être écrits avec autant de soin que le code de production
+- Les tests doivent donc être écrits avec autant de    
+soin que le code de production
   - Design, revue, patterns, maintenabilité.
   - En Java : http://www.petrikainulainen.net/writing-clean-tests/
